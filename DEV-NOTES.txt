@@ -1,0 +1,8 @@
+- Tech stack: ExpressJS, NodeJS, React with TypeScript, MongoDB
+- Goals: 
+    - Use google and username and password for authentication,
+    - Create an awesome API
+    - Create an accessible, simple, and intuitive UI and UX with a beautiful and semi-customizable interface.
+    - Make TypeScript my pet cat.
+- Proect name: ApplicaLog
+- Start date: 07/03/23

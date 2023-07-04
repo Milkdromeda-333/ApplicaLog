@@ -6,3 +6,6 @@
     - Make TypeScript my pet cat.
 - Proect name: ApplicaLog
 - Start date: 07/03/23
+
+Notes:
+- Branch naming guide: https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4

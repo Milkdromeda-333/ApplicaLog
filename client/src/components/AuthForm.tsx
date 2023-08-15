@@ -21,12 +21,13 @@ export default function AuthForm() {
                  "/>
             </div>
 
-            <button className="border-2 p-2 border-app-yellow-50 
-            hover:text-white hover:border-white
+            <button className="border-2 p-2 border-app-yellow-50 active:bg-app-yellow-50 active:text-black
+            hover:bg-app-yellow-50 hover:text-black 
             ">Log in</button>
 
             <button className="text-left w-fit border-b-2 border-app-yellow-50 
-                md:border-none md:hover:mb-[-2px] md:hover:border-b-2 md:hover:border-app-yellow-50
+                active:border-app-yellow-60 
+                md:border-transparent md:active:border-app-yellow-60 md:hover:border-b-2 md:hover:border-app-yellow-50
             ">Don't yet have an account? Sign up 😄</button>
         </form>
     );

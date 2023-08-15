@@ -1,0 +1,31 @@
+Started: 8/12/23
+
+# Notes
+
+To dead center an element using tailwind: absolute top-1/2 left-1/2 m-auto -translate-x-1/2 -translate-y-1/2
+
+
+RESOURCES:
+
+I made a gradient with this website: https://www.joshwcomeau.com/gradient-generator/ 
+but made the 
+
+STYLE GUIDE:
+
+Headings: 
+small: text-2xl wide: text-4xl
+
+Regular text:
+small: text-base wide: text-4xl
+
+
+---
+
+
+export default function Navbar() {
+
+    return (
+        <>
+        </>
+    );
+}

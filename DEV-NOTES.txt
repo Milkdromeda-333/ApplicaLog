@@ -8,4 +8,11 @@
 - Start date: 07/03/23
 
 Notes:
-- Branch naming guide: https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4
+    - Branch naming guide: https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4
+
+    TypeScript
+    - It is not reccomended to commit compiled JS files from TypeScript to git. It's reccomended that src files are only commited.
+    "If you only use .ts files in your source directory, you can add /**/*.js to your .gitignore to prevent files from being added accidentally."
+    I used /server in the gitignore to be safe
+    "build artefacts and outputs shouldn't be added to your repository"
+    https://stackoverflow.com/questions/50796326/should-compiled-javascript-files-be-committed-to-git-repo

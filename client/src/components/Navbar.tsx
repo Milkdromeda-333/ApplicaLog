@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
@@ -11,7 +11,7 @@ export default function Navbar() {
         ">
             <span className="text-2xl md:text-4xl">Job Journey</span>
 
-            <span>demo</span>
+            <Link to='/demo'>demo</Link>
         </nav>
     )
 }

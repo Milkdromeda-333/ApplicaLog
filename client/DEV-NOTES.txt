@@ -19,7 +19,12 @@ Regular text:
 small: text-base wide: text-4xl
 
 OVERCOME CHALLENGES:
-- Figuring out the best way to render a table by doing research.
+- Figuring out the best way to render a table by doing research and trial-and-failure
+
+LOG:
+8/16/23
+After looking for a library to help me render my table yesterday, I've finally come to the conclusion that I will have to make the table myself with JSX, which is fine, and frankly, favorable.
+
 
 
 ---

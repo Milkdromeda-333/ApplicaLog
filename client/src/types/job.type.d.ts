@@ -1,28 +1,21 @@
-enum ApplicationStatuses{
-    BOOKMARKED   = 'Bookmarked',
-    APPLYING     = 'Applying',
-    APPLIED      = 'Applied',
-    INTERVIEWING = 'Interviewing',
-    ACCEPTED     = 'Accepted',
-    DECLINED     = 'Declined',
-    REJECTED     = 'Rejected',
-    ARCHIVED     = 'Archived'
-}
+type ApplicationStatuses = "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived";
 
-type Job = {
+
+type JobType = {
     position: string,
-    applicationStatus: ApplicationStatuses,
+    applicationStatus: "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived",
     company: string,
-    max_salary: number,
+    max_salary: string,
     location: string,
-    date_saved: Date,
-    date_applied: Date,
+    date_saved: string,
+    date_applied: string,
     excitement: 0 | 1 | 2 | 3 | 4 | 5,
     notes: string,
-    url: string
+    url: string,
+    id: number
 }
 
 export {
     ApplicationStatuses,
-    Job
+    JobType
 };

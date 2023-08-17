@@ -5,7 +5,7 @@ import { JobType } from "../types/job.type";
 export default function Demo() {
 
     return (
-        <main className="m-4">
+        <main className="md:m-4">
             <Table data={MOCK_DATA as JobType[]} />
         </main>
     );

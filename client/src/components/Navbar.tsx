@@ -9,7 +9,7 @@ export default function Navbar() {
             border-b-[1px] border-app-yellow-50
             flex flex-row justify-between items-center
         ">
-            <span className="text-2xl md:text-4xl">Job Journey</span>
+            <Link to="/" className="text-2xl md:text-4xl">Job Journey</Link>
 
             <Link to='/demo'>demo</Link>
         </nav>

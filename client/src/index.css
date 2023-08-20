@@ -209,3 +209,9 @@
     border-radius: 10px;
     border: 3px solid #ffffff;
   }
+
+  @layer components {
+    .flex-row-center {
+       @apply flex flex-row justify-center items-center
+    }
+  }

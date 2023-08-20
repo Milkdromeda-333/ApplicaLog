@@ -1,12 +1,12 @@
 [
     {
         "position": "Frontend Engineer",
-        "applicationStatus": "Applied",
+        "application_status": "Applied",
         "company": "Google",
         "max_salary": "80000",
         "location": "remote",
-        "date_saved": "2011-10-05T14:48:00.000Z",
-        "date_applied": "2011-10-05T14:48:00.000Z",
+        "date_saved": "2011-11-05T14:48:00.000Z",
+        "date_applied": "2012-11-05T14:48:00.000Z",
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
@@ -14,7 +14,7 @@
     },
     {
         "position": "Software Engineer",
-        "applicationStatus": "Bookmarked",
+        "application_status": "Bookmarked",
         "company": "Lamp",
         "max_salary": "85000",
         "location": "Dener, CO",
@@ -27,7 +27,7 @@
     },
     {
         "position": "Data Analyst",
-        "applicationStatus": "Interviewing",
+        "application_status": "Interviewing",
         "company": "Facebook",
         "max_salary": "70000",
         "location": "remote",
@@ -40,7 +40,7 @@
     },
     {
         "position": "Frontend Engineer",
-        "applicationStatus": "Applied",
+        "application_status": "Applied",
         "company": "Google",
         "max_salary": "80000",
         "location": "remote",
@@ -49,11 +49,11 @@
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 1
+        "id": 4
     },
     {
         "position": "Software Engineer",
-        "applicationStatus": "Bookmarked",
+        "application_status": "Bookmarked",
         "company": "Lamp",
         "max_salary": "85000",
         "location": "Dener, CO",
@@ -62,11 +62,11 @@
         "excitement": 5,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 2
+        "id": 5
     },
     {
         "position": "Data Analyst",
-        "applicationStatus": "Interviewing",
+        "application_status": "Interviewing",
         "company": "Facebook",
         "max_salary": "70000",
         "location": "remote",
@@ -75,11 +75,11 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 3
+        "id": 6
     },
     {
         "position": "Frontend Engineer",
-        "applicationStatus": "Applied",
+        "application_status": "Applied",
         "company": "Google",
         "max_salary": "80000",
         "location": "remote",
@@ -88,11 +88,11 @@
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 1
+        "id": 7
     },
     {
         "position": "Software Engineer",
-        "applicationStatus": "Bookmarked",
+        "application_status": "Bookmarked",
         "company": "Lamp",
         "max_salary": "85000",
         "location": "Dener, CO",
@@ -101,11 +101,11 @@
         "excitement": 5,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 2
+        "id": 8
     },
     {
         "position": "Data Analyst",
-        "applicationStatus": "Interviewing",
+        "application_status": "Interviewing",
         "company": "Facebook",
         "max_salary": "70000",
         "location": "remote",
@@ -114,11 +114,11 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 3
+        "id": 9
     },
     {
         "position": "Frontend Engineer",
-        "applicationStatus": "Applied",
+        "application_status": "Applied",
         "company": "Google",
         "max_salary": "80000",
         "location": "remote",
@@ -127,11 +127,11 @@
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 1
+        "id": 10
     },
     {
         "position": "Software Engineer",
-        "applicationStatus": "Bookmarked",
+        "application_status": "Bookmarked",
         "company": "Lamp",
         "max_salary": "85000",
         "location": "Dener, CO",
@@ -140,11 +140,11 @@
         "excitement": 5,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 2
+        "id": 11
     },
     {
         "position": "Data Analyst",
-        "applicationStatus": "Interviewing",
+        "application_status": "Interviewing",
         "company": "Facebook",
         "max_salary": "70000",
         "location": "remote",
@@ -153,6 +153,6 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 3
+        "id": 12
     }
 ]

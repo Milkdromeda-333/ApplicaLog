@@ -3,7 +3,7 @@ type ApplicationStatuses = "Applied" | "Bookmarked" | "Interviewing" | "Accepted
 
 type JobType = {
     position: string,
-    applicationStatus: "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived",
+    application_status: "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived",
     company: string,
     max_salary: string,
     location: string,

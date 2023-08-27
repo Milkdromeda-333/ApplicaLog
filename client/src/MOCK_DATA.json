@@ -7,7 +7,7 @@
         "location": "remote",
         "date_saved": "2011-11-05T14:48:00.000Z",
         "date_applied": "2012-11-05T14:48:00.000Z",
-        "excitement": 5,
+        "excitement": 3,
         "notes": "email them tomorrow",
         "url": "google.com",
         "id": 1
@@ -20,7 +20,7 @@
         "location": "Dener, CO",
         "date_saved": "2011-10-05T14:48:00.000Z",
         "date_applied": "2011-10-05T14:48:00.000Z",
-        "excitement": 5,
+        "excitement": 4,
         "notes": "mark says he will call",
         "url": "lamp.com",
         "id": 2
@@ -46,7 +46,7 @@
         "location": "remote",
         "date_saved": "2011-10-05T14:48:00.000Z",
         "date_applied": "2011-10-05T14:48:00.000Z",
-        "excitement": 5,
+        "excitement": 0,
         "notes": "email them tomorrow",
         "url": "google.com",
         "id": 4
@@ -59,7 +59,7 @@
         "location": "Dener, CO",
         "date_saved": "2011-10-05T14:48:00.000Z",
         "date_applied": "2011-10-05T14:48:00.000Z",
-        "excitement": 5,
+        "excitement": 3,
         "notes": "mark says he will call",
         "url": "lamp.com",
         "id": 5

@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { JobType } from "../types/job.type";
+import Stars from "./Stars";
 
 export default function TableRow(props: { data: JobType }) {
+
+    const [job, setJob] = useState<JobType>(props.data);
 
     const getDate = (dateString:string):string => {
         const date = new Date(dateString);
@@ -58,7 +62,8 @@ export default function TableRow(props: { data: JobType }) {
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
             md:block md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
-                {props.data.excitement}
+                {/* TODO: FIX STARS FUNCTIONALITY AND HOVERING */}
+                <Stars excitement={props.data.excitement} />
             </div>
         </div>
     );

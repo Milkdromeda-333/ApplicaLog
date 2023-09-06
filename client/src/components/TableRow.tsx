@@ -1,7 +1,11 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { JobType } from "../types/job.type";
 import Stars from "./Stars";
 import TableDate from "./TableDate";
+import TableLocation from "./TableLocation";
+import TableSalary from "./TableSalary";
+import TableStatus from "./TableStatus";
+
 
 export default function TableRow(props: { data: JobType }) {
 
@@ -29,17 +33,17 @@ export default function TableRow(props: { data: JobType }) {
             <div className="p-4 md:text-ellipsis md:overflow-hidden 
             md:block md:whitespace-nowrap md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50
             ">
-                {props.data.application_status}
+                <TableStatus status={props.data.application_status} />
             </div>
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
             md:block md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
-                {props.data.max_salary}
+                <TableSalary salary={props.data.max_salary} />
             </div>
 
             <div className="p-4 hidden md:block text-ellipsis whitespace-nowrap overflow-hidden
             md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
-                {props.data.location}
+                <TableLocation location={props.data.location} />
             </div>
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden

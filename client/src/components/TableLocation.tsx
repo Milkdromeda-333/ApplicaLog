@@ -14,12 +14,13 @@ export default function TableLocation(props: {location: string}) {
         setNewLocation(value);
     }
     return (
-        <>
+        <div className="p-4 hidden md:block text-ellipsis whitespace-nowrap overflow-hidden
+            md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
             {isEditing ?
                 <input ref={ref} type="text" value={newLocation} onChange={handleChange} />
                 :
                 <p onClick={()=>setIsEditing(true)}>{ location }</p>
             }
-        </>
+        </div>
     );
 }

@@ -14,11 +14,10 @@ export default function TableStatus(props: { status: ApplicationStatuses }) {
         const { value } = e.target;
         setNewStatus(value as ApplicationStatuses);
     }
-    console.log(status)
     return (
-        <>
+        <div className="p-4 md:text-ellipsis md:overflow-hidden 
+                md:block md:whitespace-nowrap md:border-[#ffffff33] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
             {isEditing ?
-                // <input ref={ref} type="text" value={newStatus} onChange={handleChange} />
                 <select ref={ref} onChange={handleChange}>
                     <option value="Applied">Applied</option>
                     <option value="Bookmarked">Bookmarked</option>
@@ -33,6 +32,6 @@ export default function TableStatus(props: { status: ApplicationStatuses }) {
                 :
                 <p onClick={() => setIsEditing(true)}>{status}</p>
             }
-        </>
+        </div>
     );
 }

@@ -20,7 +20,8 @@ export default function TableDate(props: { date: string }) {
     const { date } = props;
 
     return (
-        <>
+        <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
+                md:block md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
             {isEditing ?
                 <input type="date" ref={ref} onChange={() => { setIsEditing(false) }} />  
                 :
@@ -28,6 +29,6 @@ export default function TableDate(props: { date: string }) {
                     {getDate(date)}
                 </p>   
             }
-        </>
+        </div>
     );
 }

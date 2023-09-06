@@ -4,7 +4,7 @@ import { orderRows } from '../utils/tableFilters';
 import TableRow from './TableRow';
 import { IoIosArrowDropupCircle, IoIosArrowDropdownCircle } from "react-icons/io";
 
-export default function Table(props: { data: JobType[] }) {
+export default function Table(props: { data: JobType[], toggleJobPage: ()=>void }) {
 
     const [columnSorted, setColumnSorted] = useState<{ sortedColumn: keyof JobType | null, order: "ASC"|"DESC" }>({sortedColumn: null, order: "ASC"});
     const [jobs, setJobs] = useState<JobType[]>(props.data);
@@ -97,7 +97,7 @@ export default function Table(props: { data: JobType[] }) {
             </div>
 
             <div className="flex flex-col">
-                {jobs.map(job => <TableRow key={job.id} data={job} />)}
+                {jobs.map(job => <TableRow key={job.id} data={job} toggleJobPage={props.toggleJobPage} />)}
             </div>
         </div>
     );

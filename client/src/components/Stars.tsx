@@ -12,7 +12,12 @@ export default function Stars(props: { excitement: number }) {
     }
 
     return (
-        <div className="flex-row-center justify-normal" onMouseEnter={() => setComponentHover(true)} onMouseLeave={() => setComponentHover(false)}>
+        <div className="
+            p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
+                md:flex-row-center md:justify-normal md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50
+        "
+            onMouseEnter={() => setComponentHover(true)}
+            onMouseLeave={() => setComponentHover(false)}>
             {componentHover &&
                 [...Array(5)].map((star, index) => {
                     const ratingValue = index + 1;

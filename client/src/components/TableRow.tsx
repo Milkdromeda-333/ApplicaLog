@@ -1,19 +1,11 @@
 import { useState } from "react";
 import { JobType } from "../types/job.type";
 import Stars from "./Stars";
+import TableDate from "./TableDate";
 
 export default function TableRow(props: { data: JobType }) {
 
-    const [job, setJob] = useState<JobType>(props.data);
-
-    const getDate = (dateString:string):string => {
-        const date = new Date(dateString);
-        const month = date.getMonth();
-        const day = date.getDay();
-        const year = date.getUTCFullYear();
-
-        return `${month}/${day}/${year}`
-    }
+    // const [job, setJob] = useState<JobType>(props.data);
 
     return (
         <div className="flex flex-row justify-between border-b-[1px] border-t-[1px] border-[#ffffff33] overflow-hidden 
@@ -52,12 +44,12 @@ export default function TableRow(props: { data: JobType }) {
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
            md:block md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
-                {getDate(props.data.date_applied)}
+                <TableDate date={props.data.date_applied} />
             </div>
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden
             md:block md:border-[#ffffff33] md::border-[2px] md:hover:bg-app-glass-white-70 box-border md:hover:border-app-glass-white-50">
-                {getDate(props.data.date_saved)}
+                <TableDate date={props.data.date_saved} />
             </div>
 
             <div className="p-4 hidden text-ellipsis whitespace-nowrap overflow-hidden

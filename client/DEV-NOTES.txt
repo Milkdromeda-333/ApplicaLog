@@ -28,14 +28,3 @@ After looking for a library to help me render my table yesterday, I've finally c
 
 8/17/23
 Although I am currently emotionally unstable, coding is proving to be my happy place. I spent a lot of today messing around with CSS nad finally its 1am and things are looking good. I had to "frog" my hard work from looking for a table library, but I'm glad that I am making my own table. I haven't worked so deeply with CSS in a while, and this is how I learn best.
-
----
-
-
-export default function Navbar() {
-
-    return (
-        <>
-        </>
-    );
-}

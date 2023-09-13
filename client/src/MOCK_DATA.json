@@ -10,7 +10,8 @@
         "excitement": 3,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 1
+        "id": 1,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Software Engineer",
@@ -23,7 +24,8 @@
         "excitement": 4,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 2
+        "id": 2,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Data Analyst",
@@ -36,7 +38,8 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 3
+        "id": 3,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Frontend Engineer",
@@ -49,7 +52,8 @@
         "excitement": 0,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 4
+        "id": 4,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Software Engineer",
@@ -62,7 +66,8 @@
         "excitement": 3,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 5
+        "id": 5,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Data Analyst",
@@ -75,7 +80,8 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 6
+        "id": 6,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Frontend Engineer",
@@ -88,7 +94,8 @@
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 7
+        "id": 7,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Software Engineer",
@@ -101,7 +108,8 @@
         "excitement": 5,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 8
+        "id": 8,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Data Analyst",
@@ -114,7 +122,8 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 9
+        "id": 9,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Frontend Engineer",
@@ -127,7 +136,8 @@
         "excitement": 5,
         "notes": "email them tomorrow",
         "url": "google.com",
-        "id": 10
+        "id": 10,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Software Engineer",
@@ -140,7 +150,8 @@
         "excitement": 5,
         "notes": "mark says he will call",
         "url": "lamp.com",
-        "id": 11
+        "id": 11,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     },
     {
         "position": "Data Analyst",
@@ -153,6 +164,7 @@
         "excitement": 4,
         "notes": "Prepare for next interview",
         "url": "facebook.com",
-        "id": 12
+        "id": 12,
+        "description": "If you believe you are a fit for this position and are keen on being part of a dynamic, forward-thinking team, please apply with your resume and a link to your portfolio.Horizon Cloud is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees."
     }
 ]

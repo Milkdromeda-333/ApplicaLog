@@ -1,12 +1,6 @@
 import { createContext, useState } from 'react';
 import type { JobType } from '../types/job.type';
 
-const CurrentJobContext = createContext<context>({
-    currentJobData: null,
-    setCurrentJobData: () => {},
-    toggleJobPage: ()=> {},
-    isPageOpen: false
-});
 
 interface context {
     currentJobData: JobType | null,
@@ -14,6 +8,13 @@ interface context {
     toggleJobPage: () => void,
     isPageOpen: boolean
 }
+
+const CurrentJobContext = createContext<context>({
+    currentJobData: null,
+    setCurrentJobData: () => {},
+    toggleJobPage: ()=> {},
+    isPageOpen: false
+});
 
 function JobPageContext({children}: {children: React.ReactNode}) {
     const [currentJobData, setCurrentJobData] = useState<JobType | null>(null);

@@ -4,14 +4,15 @@ export default function Navbar() {
 
     return (
         <nav className="
-            bg-app-gradient h-16
+            bg-app-gradient bg-no-repeat bg-cover font-app-font
+            h-16
             text-lg w-full  px-4
             border-b-[1px] border-app-yellow-50
             flex flex-row justify-between items-center
         ">
-            <Link to="/" className="text-2xl md:text-4xl">Job Journey</Link>
+            <Link to="/" className="fontSize-h1 no-underline">Job Journey</Link>
 
-            <Link to='/demo'>demo</Link>
+            <Link to='/demo' className="no-underline">demo</Link>
         </nav>
     )
 }

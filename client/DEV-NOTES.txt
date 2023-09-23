@@ -4,6 +4,7 @@ Started: 8/12/23
 
 To dead center an element using tailwind: absolute top-1/2 left-1/2 m-auto -translate-x-1/2 -translate-y-1/2
 
+To make a box shadow with tailwind: shadow-[0_4px_30px_rgba(0,0,0,0.1)]
 
 RESOURCES:
 
@@ -18,14 +19,12 @@ small: text-2xl wide: text-4xl
 Regular text:
 small: text-base wide: text-4xl
 
+OVERCOME CHALLENGES:
+- Figuring out the best way to render a table by doing research and trial-and-failure
 
----
+LOG:
+8/16/23
+After looking for a library to help me render my table yesterday, I've finally come to the conclusion that I will have to make the table myself with JSX, which is fine, and frankly, favorable.
 
-
-export default function Navbar() {
-
-    return (
-        <>
-        </>
-    );
-}
+8/17/23
+Although I am currently emotionally unstable, coding is proving to be my happy place. I spent a lot of today messing around with CSS nad finally its 1am and things are looking good. I had to "frog" my hard work from looking for a table library, but I'm glad that I am making my own table. I haven't worked so deeply with CSS in a while, and this is how I learn best.

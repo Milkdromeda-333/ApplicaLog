@@ -16,3 +16,6 @@ Notes:
     I used /server in the gitignore to be safe
     "build artefacts and outputs shouldn't be added to your repository"
     https://stackoverflow.com/questions/50796326/should-compiled-javascript-files-be-committed-to-git-repo
+
+    Tailwind:
+    - Setting custom font sizes for the app is something I like to do (now) so that I am not constantly guessing and checking the font of other text. I may use : "app-h1" "app-regular" "app-wide-h1" "app-wide-regular"

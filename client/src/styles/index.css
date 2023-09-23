@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+}
+
 /**
  * @license
  *
@@ -187,3 +191,77 @@
        font-display: swap;
        font-style: italic;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #a8a8a8 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  @layer components {
+    .flex-row-center {
+       @apply flex flex-row items-center
+    }
+
+    .flex-col-center {
+       @apply flex flex-col items-center
+    }
+
+    a {
+      @apply underline
+    }
+
+    a:hover {
+      @apply md:no-underline
+    }
+
+    .fontSize-h1{
+      @apply text-2xl  md:text-4xl
+    }
+    
+    .fontSize-h2{
+      @apply text-xl md:text-2xl
+    }
+    .fontSize-h3{}
+    .fontSize-regular{}
+    .fontSize-icons{
+      @apply text-xl md:text-2xl
+    }
+
+
+
+
+
+
+
+  }
+
+  .arrow {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 300ms ;
+  }
+
+  .open-job:hover .arrow {
+    display: flex;
+    opacity: 100;
+    transform: translateX(0);
+  }
+
+

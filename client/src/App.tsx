@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar.tsx';
 import Index from './pages/Index.tsx';
-
+import Demo from './pages/Demo.tsx';
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Index />} />
-        {/* <Route index path='/home' element={<Home />} />
-        <Route index path='/demo' element={<Demo />} /> */}
+        {/* <Route index path='/home' element={<Home />} /> */}
+        <Route index path='/demo' element={<Demo />} />
       </Routes>
 
       {/* <Footer /> */}

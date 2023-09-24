@@ -19,3 +19,9 @@ Notes:
 
     Tailwind:
     - Setting custom font sizes for the app is something I like to do (now) so that I am not constantly guessing and checking the font of other text. I may use : "app-h1" "app-regular" "app-wide-h1" "app-wide-regular"
+
+Journal:
+09/23/23
+Today I am tacling authentication! I have decided to implement both local and google SSO, for ease of logging in, and practice!
+- [] implement local authentication with jwts and cookies!
+- [] implement google SSO!

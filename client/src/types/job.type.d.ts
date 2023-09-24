@@ -1,9 +1,9 @@
-type ApplicationStatuses = "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived";
+type ApplicationStatuses = "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Rejected" | "Archived";
 
 
 type JobType = {
     position: string,
-    application_status: "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Negotiating" | "Rejected" | "Archived",
+    application_status: "Applied" | "Bookmarked" | "Interviewing" | "Accepted" | "Declined" | "Rejected" | "Archived",
     company: string,
     max_salary: string,
     location: string,

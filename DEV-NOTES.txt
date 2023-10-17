@@ -21,7 +21,12 @@ Notes:
     - Setting custom font sizes for the app is something I like to do (now) so that I am not constantly guessing and checking the font of other text. I may use : "app-h1" "app-regular" "app-wide-h1" "app-wide-regular"
 
 Journal:
-09/23/23
+09/23
 Today I am tacling authentication! I have decided to implement both local and google SSO, for ease of logging in, and practice!
 - [] implement local authentication with jwts and cookies!
 - [] implement google SSO!
+I finished sign up function, am working on login route handler.
+
+10/16
+- [x] finish implementing local authentication with jwts and cookies!
+Today I worked a lot on the authentication, and did research. I found that I had a hard time understanding everything and needing to travel down rabbitholes to understand. BUT with a lot of preserverence, resourcefulness, and not allowing myself to endlessly fall down these holes, I found that doing a lot of research like this is very benefitial, especially for my future self. 
